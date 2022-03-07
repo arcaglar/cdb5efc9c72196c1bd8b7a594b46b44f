@@ -1,0 +1,25 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+    }
+    &__search-box {
+        width: 150px;
+        height: 42px;
+        border-radius: 6px;
+        border: 4px solid #bdc3c7;
+        padding-left: 4px;
+        &:hover {
+            border-color: #999;
+        }
+        &:focus {
+            border-color: #333;
+            outline: 0;
+        }
+    }
+}

@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import List from './components/List'
+import List from './pages/List'
 
 export default {
   name: 'App',

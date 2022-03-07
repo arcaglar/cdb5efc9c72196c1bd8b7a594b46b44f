@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1646619751684" clover="3.2.0">
+  <project timestamp="1646619751684" name="All files">
+    <metrics statements="24" coveredstatements="20" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="3" elements="31" coveredelements="23" complexity="0" loc="24" ncloc="24" packages="3" files="6" classes="6"/>
+    <package name="src">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="App.vue" path="/Users/arcaglar/projects/shopify/shopify/src/App.vue">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Accordion.vue" path="/Users/arcaglar/projects/shopify/shopify/src/components/Accordion.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="8" count="2" type="stmt"/>
+      </file>
+      <file name="ListHeader.vue" path="/Users/arcaglar/projects/shopify/shopify/src/components/ListHeader.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="ListItem.vue" path="/Users/arcaglar/projects/shopify/shopify/src/components/ListItem.vue">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+      <file name="Pagination.vue" path="/Users/arcaglar/projects/shopify/shopify/src/components/Pagination.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="8" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages">
+      <metrics statements="17" coveredstatements="15" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="3"/>
+      <file name="List.vue" path="/Users/arcaglar/projects/shopify/shopify/src/pages/List.vue">
+        <metrics statements="17" coveredstatements="15" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="3"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="5138" count="1" type="stmt"/>
+        <line num="5139" count="0" type="stmt"/>
+        <line num="5140" count="0" type="stmt"/>
+        <line num="5143" count="1" type="cond" truecount="0" falsecount="2"/>
+        <line num="5145" count="1" type="stmt"/>
+        <line num="5146" count="1" type="stmt"/>
+        <line num="5147" count="50" type="stmt"/>
+        <line num="5155" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

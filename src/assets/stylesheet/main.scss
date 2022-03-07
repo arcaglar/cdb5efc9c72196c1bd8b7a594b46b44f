@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
 @import './reset.scss';
 @import './list.scss';
+@import './header.scss';
+@import './accordion.scss';
+@import './pagination.scss';
 
 html,body {
     font-family: 'Open Sans', sans-serif;
@@ -11,28 +14,15 @@ body {
 	height: 100vh;
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-	animation: gradientBG 60s ease infinite;
-}
-
-@keyframes gradientBG {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
 
 .container {
     width: 60%;
-    margin: 60px auto;
+	margin: 60px auto;
 }
 
-.title {
-    font-size: 24px;
-    font-weight: 600;
-    color: #fff;
-}
+@media only screen and (max-width: 600px) {
+	.container {
+	  width: 90%;
+	}
+  }
